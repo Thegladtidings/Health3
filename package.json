@@ -1,16 +1,15 @@
 {
-    "name": "health3",
-    "type": "module",
-    "scripts": {
-        "start": "npm start --workspaces --if-present",
-        "prebuild": "npm run prebuild --workspaces --if-present",
-        "build": "npm run build --workspaces --if-present",
-        "pretest": "npm run prebuild --workspaces --if-present",
-        "test": "npm test --workspaces --if-present"
-    },
-    "engines": {
-        "node": ">=16.0.0",
-        "npm": ">=7.0.0"
-    },
-    "workspaces": [ ]
+  "name": "health3",
+  "type": "module",
+  "scripts": {
+    "start": "echo 'no start script'",
+    "prebuild": "echo 'no prebuild step required'",
+    "build": "echo 'no build step defined'",
+    "pretest": "echo 'no pretest step required'",
+    "test": "echo 'no tests defined'"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  }
 }

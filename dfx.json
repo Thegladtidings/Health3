@@ -5,15 +5,18 @@
       "type": "motoko"
     },
     "health3_frontend": {
-      "dependencies": [
-        "health3_backend"
-      ],
-      "source": [
-        "src/health3_frontend/assets"
-      ],
-      "type": "assets",
-      "build":""
-    }
+  "dependencies": [
+    "health3_backend"
+  ],
+  "frontend": {
+    "entrypoint": "src/health3_frontend/src/index.html"
+  },
+  "source": [
+    "src/health3_frontend/assets",
+    "src/health3_frontend/src"
+  ],
+  "type": "assets"
+}
   },
   "defaults": {
     "build": {
