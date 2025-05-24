@@ -1,5 +1,5 @@
 {
-    "name": "backend",
+    "name": "health3",
     "type": "module",
     "scripts": {
         "start": "npm start --workspaces --if-present",

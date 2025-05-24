@@ -1,17 +1,18 @@
 {
   "canisters": {
-    "backend_backend": {
-      "main": "src/backend_backend/main.mo",
+    "health3_backend": {
+      "main": "src/health3_backend/main.mo",
       "type": "motoko"
     },
-    "backend_frontend": {
+    "health3_frontend": {
       "dependencies": [
-        "backend_backend"
+        "health3_backend"
       ],
       "source": [
-        "src/backend_frontend/assets"
+        "src/health3_frontend/assets"
       ],
-      "type": "assets"
+      "type": "assets",
+      "build":""
     }
   },
   "defaults": {
